@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>MyScene</string>
+	<key>Description</key>
+	<string>This generates a flow module with Standard Model Architecture pattern</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the scene to create</string>
+			<key>Identifier</key>
+			<string>sceneName</string>
+			<key>Name</key>
+			<string>New Scene Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Description</key>
+			<string>The name of the subflow to create</string>
+			<key>Identifier</key>
+			<string>subflowName</string>
+			<key>Name</key>
+			<string>New subflow name:</string>
+			<key>Required</key>
+			<true/>
+			<key>NotPersisted</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_subflowName___Controller</string>
+			<key>Description</key>
+			<string>The controller name</string>
+			<key>Identifier</key>
+			<string>controllerName</string>
+			<key>Name</key>
+			<string>Controller:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_subflowName___ViewModel</string>
+			<key>Description</key>
+			<string>The viewModel name</string>
+			<key>Identifier</key>
+			<string>viewModelName</string>
+			<key>Name</key>
+			<string>ViewModel:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_subflowName___Model</string>
+			<key>Description</key>
+			<string>The Model name</string>
+			<key>Identifier</key>
+			<string>modelName</string>
+			<key>Name</key>
+			<string>Model:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName___FlowAssembly</string>
+			<key>Description</key>
+			<string>The Assembly name</string>
+			<key>Identifier</key>
+			<string>assemblyName</string>
+			<key>Name</key>
+			<string>Assembly:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName___FlowCoordinator</string>
+			<key>Description</key>
+			<string>The Coordinator name</string>
+			<key>Identifier</key>
+			<string>coordinatorName</string>
+			<key>Name</key>
+			<string>Coordinator:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_sceneName___</string>
+			<key>Description</key>
+			<string>The storyboard name</string>
+			<key>Identifier</key>
+			<string>storyboard Name</string>
+			<key>Name</key>
+			<string>Storyboard:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+</dict>
+</plist>
