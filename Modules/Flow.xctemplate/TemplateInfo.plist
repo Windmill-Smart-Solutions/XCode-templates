@@ -62,13 +62,13 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_subflowName___ViewModel</string>
+			<string>___VARIABLE_subflowName___Binder</string>
 			<key>Description</key>
-			<string>The viewModel name</string>
+			<string>The binder name</string>
 			<key>Identifier</key>
-			<string>viewModelName</string>
+			<string>binderName</string>
 			<key>Name</key>
-			<string>ViewModel:</string>
+			<string>Binder:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
